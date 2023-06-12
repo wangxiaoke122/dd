@@ -25,6 +25,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/mast
 ##镜像文件在GoogleDrive
 wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-gd.sh && chmod +x dd-gd.sh && ./dd-gd.sh
 
+##原始
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 11 -v 64 -p 123456 -port 22
+
 ```
 DD debian 10示例：
 ```

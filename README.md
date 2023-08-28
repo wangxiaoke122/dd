@@ -85,7 +85,7 @@ bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/veip0
 wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/dd/master/InstallNET.sh' && chmod +x InstallNET.sh
 ``` 
 ```
-Usage:
+Usage:如果不添加版本，默认重装现使用系统版本
         bash InstallNET.sh      -d/--debian [dist-name]
                                 -u/--ubuntu [dist-name]
                                 -c/--centos [dist-version]

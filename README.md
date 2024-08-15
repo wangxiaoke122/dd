@@ -1,9 +1,13 @@
 # 萌咖大佬的一键DD脚本
-甲骨文和AWS   需要先运行以下命令更新系统并安装必要的软件
+甲骨文和AWS
+
+需要先运行以下命令更新系统并安装必要的软件
 ```
 apt-get update -y && apt-get install curl wget vim dnsutils telnet -y
 ```
-GCP    直接按照甲骨文和AWS的方法去DD会导致VPS失联，除了上面的需要运行，还需要将内网地址和网关填入DD命令里，子网掩码就是255.255.255.0,如下：
+GCP
+
+直接按照甲骨文和AWS的方法去DD会导致VPS失联，除了上面的需要运行，还需要将内网地址和网关填入DD命令里，子网掩码就是255.255.255.0,如下：
 ```
 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') --ip-addr 10.170.0.4 --ip-gate 10.170.0.1 --ip-mask 255.255.255.0 -d 10 -v 64 -a -p "password" -port "65001"
 ```

@@ -1,4 +1,9 @@
 # 萌咖大佬的一键DD脚本
+甲骨文和AWS需要运行以下命令更新系统并安装必要的软件
+```
+apt-get update -y && apt-get install curl wget vim dnsutils telnet -y
+```
+甲骨文
 
 ## 快速安装的那个好用
 
